@@ -1,1 +1,1 @@
-[2026-11-13 20:37:00][ERROR_PRESTAMO][El libro no existe (libro 8, socio 2)]
+[2026-11-13 22:18:15][GUARDADO][Datos guardados en los ficheros]
