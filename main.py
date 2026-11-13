@@ -1,9 +1,5 @@
-from modelo.biblioteca_ficheros import cargar_libros, cargar_socios
+from modelo.log import registrar_evento
 
-lista_libros = cargar_libros("datos/libros.txt")
-lista_socios = cargar_socios("datos/socios.txt")
-
-print("Se han cargado " + str(len(lista_libros)) + " libros")
-print("Se han cargado " + str(len(lista_socios)) + " socios")
-print(lista_libros[0])
-print(lista_socios[0])
+registrar_evento("PRESTAMO", "Libro L001 prestado al socio S001")
+registrar_evento("DEVOLUCION", "Libro L001 devuelto por el socio S001")
+print("Eventos guardados en log.txt")
