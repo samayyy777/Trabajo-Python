@@ -1,4 +1,7 @@
 from modelo.biblioteca_ficheros import cargar_libros, cargar_socios
+from modelo.biblioteca_ficheros import guardar_libros, guardar_socios
+from modelo.libro import Libro
+from modelo.socio import Socio
 from modelo.log import registrar_evento
 from errores.excepciones import PrestamoError
 
@@ -78,8 +81,9 @@ def main():
         elif opcion == "6":
             mostrar_socios_con_libro(lista_libros, lista_socios)
         elif opcion == "7":
-            print("Esta opcion todavia no esta disponible")
+            opcion_anadir(lista_libros, lista_socios)
         elif opcion == "8":
+            guardar_todo(lista_libros, lista_socios)
             print("Hasta pronto")
         else:
             print("Opcion no valida")
@@ -164,6 +168,75 @@ def mostrar_socios_con_libro(lista_libros, lista_socios):
             contador = contador + 1
     if contador == 0:
         print("Ningun socio tiene libros")
+        
+def anadir_socio(lista_socios):
+    # Pide los datos de un socio nuevo y lo anade a la lista
+    codigo = input("Codigo del socio (ejemplo S016): ").strip().upper()
+    nombre = input("Nombre: ").strip()
+    email = input("Email: ").strip().lower()
+
+    if codigo == "" or nombre == "" or email == "":
+        print("Todos los campos son obligatorios")
+        return
+    if ";" in codigo or ";" in nombre or ";" in email:
+        print("No se puede usar el caracter ; en los datos")
+        return
+    if buscar_socio_por_codigo(lista_socios, codigo) is not None:
+        print("Ya existe un socio con ese codigo")
+        return
+
+    socio = Socio(codigo, nombre, email)
+    lista_socios.append(socio)
+    registrar_evento("ALTA_SOCIO", "Socio " + codigo + " (" + nombre + ") anadido")
+    print("Socio anadido correctamente")
+
+
+def anadir_libro(lista_libros):
+    # Pide los datos de un libro nuevo y lo anade a la lista
+    codigo = input("Codigo del libro (ejemplo L101): ").strip().upper()
+    titulo = input("Titulo: ").strip()
+    autor = input("Autor: ").strip()
+    anio = input("Anio (4 cifras): ").strip()
+    categoria = input("Categoria: ").strip()
+
+    if codigo == "" or titulo == "" or autor == "" or categoria == "":
+        print("Todos los campos son obligatorios")
+        return
+    if ";" in codigo or ";" in titulo or ";" in autor or ";" in categoria:
+        print("No se puede usar el caracter ; en los datos")
+        return
+    if anio.isdigit() == False:
+        print("El anio tiene que ser un numero")
+        return
+    if buscar_libro_por_codigo(lista_libros, codigo) is not None:
+        print("Ya existe un libro con ese codigo")
+        return
+
+    libro = Libro(codigo, titulo, autor, int(anio), categoria)
+    lista_libros.append(libro)
+    registrar_evento("ALTA_LIBRO", "Libro " + codigo + " (" + titulo + ") anadido")
+    print("Libro anadido correctamente")
+
+
+def opcion_anadir(lista_libros, lista_socios):
+    # Pregunta si se quiere anadir un socio o un libro
+    print("1. Anadir socio")
+    print("2. Anadir libro")
+    eleccion = input("Elige una opcion: ")
+    if eleccion == "1":
+        anadir_socio(lista_socios)
+    elif eleccion == "2":
+        anadir_libro(lista_libros)
+    else:
+        print("Opcion no valida")
+
+
+def guardar_todo(lista_libros, lista_socios):
+    # Guarda la situacion actual en los ficheros
+    guardar_libros(RUTA_LIBROS, lista_libros)
+    guardar_socios(RUTA_SOCIOS, lista_socios)
+    registrar_evento("GUARDADO", "Datos guardados en los ficheros")
+    print("Datos guardados en los ficheros")
 
 
 
