@@ -1,10 +1,8 @@
-from modelo.libro import Libro
-from modelo.socio import Socio
+from errores.excepciones import PrestamoError
 
-libro = Libro("L001", "El Quijote", "Cervantes", 1605, "Novela")
-socio = Socio("S001", "Ana Pérez", "ana@correo.com")
-
-print(libro)
-print(socio)
-print(libro.esta_disponible())
-print(socio.tiene_libro())
+try:
+    raise PrestamoError("El libro ya esta prestado", "L001", "S002")
+except PrestamoError as error:
+    print("Error: " + error.mensaje)
+    print("Libro: " + error.codigo_libro)
+    print("Socio: " + error.codigo_socio)
