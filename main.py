@@ -1,8 +1,9 @@
-from errores.excepciones import PrestamoError
+from modelo.biblioteca_ficheros import cargar_libros, cargar_socios
 
-try:
-    raise PrestamoError("El libro ya esta prestado", "L001", "S002")
-except PrestamoError as error:
-    print("Error: " + error.mensaje)
-    print("Libro: " + error.codigo_libro)
-    print("Socio: " + error.codigo_socio)
+lista_libros = cargar_libros("datos/libros.txt")
+lista_socios = cargar_socios("datos/socios.txt")
+
+print("Se han cargado " + str(len(lista_libros)) + " libros")
+print("Se han cargado " + str(len(lista_socios)) + " socios")
+print(lista_libros[0])
+print(lista_socios[0])
