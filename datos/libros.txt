@@ -1,0 +1,100 @@
+L001;Don Quijote de la Mancha;Miguel de Cervantes;1605;Novela;None
+L002;La Celestina;Fernando de Rojas;1499;Novela;None
+L003;Lazarillo de Tormes;Anónimo;1554;Novela;None
+L004;La vida es sueño;Pedro Calderón de la Barca;1635;Novela;None
+L005;Fortunata y Jacinta;Benito Pérez Galdós;1887;Novela;None
+L006;La Regenta;Leopoldo Alas Clarín;1884;Novela;None
+L007;Los pazos de Ulloa;Emilia Pardo Bazán;1886;Novela;None
+L008;Marianela;Benito Pérez Galdós;1878;Novela;None
+L009;Niebla;Miguel de Unamuno;1914;Novela;None
+L010;Platero y yo;Juan Ramón Jiménez;1914;Novela;None
+L011;La familia de Pascual Duarte;Camilo José Cela;1942;Novela;None
+L012;Nada;Carmen Laforet;1945;Novela;None
+L013;La colmena;Camilo José Cela;1951;Novela;None
+L014;Tiempo de silencio;Luis Martín-Santos;1962;Novela;None
+L015;Cinco horas con Mario;Miguel Delibes;1966;Novela;None
+L016;El camino;Miguel Delibes;1950;Novela;None
+L017;Los santos inocentes;Miguel Delibes;1981;Novela;None
+L018;El Jarama;Rafael Sánchez Ferlosio;1955;Novela;None
+L019;La sombra del viento;Carlos Ruiz Zafón;2001;Novela;None
+L020;Patria;Fernando Aramburu;2016;Novela;None
+L021;Cien años de soledad;Gabriel García Márquez;1967;Novela;None
+L022;El amor en los tiempos del cólera;Gabriel García Márquez;1985;Novela;None
+L023;Crónica de una muerte anunciada;Gabriel García Márquez;1981;Novela;None
+L024;La ciudad y los perros;Mario Vargas Llosa;1963;Novela;None
+L025;La casa de los espíritus;Isabel Allende;1982;Novela;None
+L026;Rayuela;Julio Cortázar;1963;Novela;None
+L027;Pedro Páramo;Juan Rulfo;1955;Novela;None
+L028;Como agua para chocolate;Laura Esquivel;1989;Novela;None
+L029;El túnel;Ernesto Sabato;1948;Novela;None
+L030;Sobre héroes y tumbas;Ernesto Sabato;1961;Novela;None
+L031;Breve historia del tiempo;Stephen Hawking;1988;Ciencia;None
+L032;El origen de las especies;Charles Darwin;1859;Ciencia;None
+L033;Cosmos;Carl Sagan;1980;Ciencia;None
+L034;El gen egoísta;Richard Dawkins;1976;Ciencia;None
+L035;La doble hélice;James D. Watson;1968;Ciencia;None
+L036;El universo elegante;Brian Greene;1999;Ciencia;None
+L037;El relojero ciego;Richard Dawkins;1986;Ciencia;None
+L038;Una breve historia de casi todo;Bill Bryson;2003;Ciencia;None
+L039;El cerebro y el mito del yo;Rodolfo Llinás;2001;Ciencia;None
+L040;La estructura de las revoluciones científicas;Thomas S. Kuhn;1962;Ciencia;None
+L041;Sapiens;Yuval Noah Harari;2011;Historia;None
+L042;Homo Deus;Yuval Noah Harari;2015;Historia;None
+L043;Los pilares de la Tierra;Ken Follett;1989;Historia;None
+L044;La caída de los gigantes;Ken Follett;2010;Historia;None
+L045;El nombre de la rosa;Umberto Eco;1980;Historia;None
+L046;Sinuhé el egipcio;Mika Waltari;1945;Historia;None
+L047;Yo Claudio;Robert Graves;1934;Historia;None
+L048;Memorias de Adriano;Marguerite Yourcenar;1951;Historia;None
+L049;La guerra del Peloponeso;Tucídides;400;Historia;None
+L050;Historia de la guerra del Peloponeso;Tucídides;400;Historia;None
+L051;El señor de los anillos;J. R. R. Tolkien;1954;Fantasia;None
+L052;El hobbit;J. R. R. Tolkien;1937;Fantasia;None
+L053;Harry Potter y la piedra filosofal;J. K. Rowling;1997;Fantasia;None
+L054;Harry Potter y la cámara secreta;J. K. Rowling;1998;Fantasia;None
+L055;Harry Potter y el prisionero de Azkaban;J. K. Rowling;1999;Fantasia;None
+L056;Harry Potter y el cáliz de fuego;J. K. Rowling;2000;Fantasia;None
+L057;Harry Potter y la Orden del Fénix;J. K. Rowling;2003;Fantasia;None
+L058;Harry Potter y el misterio del príncipe;J. K. Rowling;2005;Fantasia;None
+L059;Harry Potter y las reliquias de la Muerte;J. K. Rowling;2007;Fantasia;None
+L060;La historia interminable;Michael Ende;1979;Fantasia;None
+L061;Momo;Michael Ende;1973;Fantasia;None
+L062;Las crónicas de Narnia;C. S. Lewis;1950;Fantasia;None
+L063;Alicia en el país de las maravillas;Lewis Carroll;1865;Fantasia;None
+L064;El mago de Oz;L. Frank Baum;1900;Fantasia;None
+L065;La brújula dorada;Philip Pullman;1995;Fantasia;None
+L066;El archivo de las tormentas;Brandon Sanderson;2010;Fantasia;None
+L067;La comunidad del anillo;J. R. R. Tolkien;1954;Fantasia;None
+L068;El retorno del rey;J. R. R. Tolkien;1955;Fantasia;None
+L069;Romancero gitano;Federico García Lorca;1928;Poesia;None
+L070;Poeta en Nueva York;Federico García Lorca;1940;Poesia;None
+L071;Veinte poemas de amor y una canción desesperada;Pablo Neruda;1924;Poesia;None
+L072;Canto general;Pablo Neruda;1950;Poesia;None
+L073;Rimas;Gustavo Adolfo Bécquer;1871;Poesia;None
+L074;Campos de Castilla;Antonio Machado;1912;Poesia;None
+L075;Soledades;Antonio Machado;1903;Poesia;None
+L076;Cántico espiritual;San Juan de la Cruz;1578;Poesia;None
+L077;La voz a ti debida;Pedro Salinas;1933;Poesia;None
+L078;Espadas como labios;Vicente Aleixandre;1932;Poesia;None
+L079;El principito;Antoine de Saint-Exupéry;1943;Infantil;None
+L080;Matilda;Roald Dahl;1988;Infantil;None
+L081;Charlie y la fábrica de chocolate;Roald Dahl;1964;Infantil;None
+L082;James y el melocotón gigante;Roald Dahl;1961;Infantil;None
+L083;Las aventuras de Pinocho;Carlo Collodi;1883;Infantil;None
+L084;Peter Pan;J. M. Barrie;1911;Infantil;None
+L085;El libro de la selva;Rudyard Kipling;1894;Infantil;None
+L086;Adivina cuánto te quiero;Sam McBratney;1994;Infantil;None
+L087;Donde viven los monstruos;Maurice Sendak;1963;Infantil;None
+L088;Manolito Gafotas;Elvira Lindo;1994;Infantil;None
+L089;Fray Perico y su borrico;Juan Muñoz Martín;1979;Infantil;None
+L090;Celia lo que dice;Elena Fortún;1929;Infantil;None
+L091;La isla del tesoro;Robert Louis Stevenson;1883;Novela;None
+L092;Robinson Crusoe;Daniel Defoe;1719;Novela;None
+L093;Los tres mosqueteros;Alexandre Dumas;1844;Novela;None
+L094;Madame Bovary;Gustave Flaubert;1857;Novela;None
+L095;Crimen y castigo;Fiódor Dostoyevski;1866;Novela;None
+L096;Guerra y paz;León Tolstói;1869;Novela;None
+L097;Orgullo y prejuicio;Jane Austen;1813;Novela;None
+L098;Cumbres borrascosas;Emily Brontë;1847;Novela;None
+L099;Drácula;Bram Stoker;1897;Novela;None
+L100;Frankenstein;Mary Shelley;1818;Novela;None
